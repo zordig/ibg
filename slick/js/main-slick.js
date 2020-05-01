@@ -11,7 +11,7 @@ $(document).ready(function () {
     appendDots: $('.main-slider__nav'),
     dotsClass: 'main-slider__dots',
     // respondTo: 'min',
-    speed: 900,
+    speed: 1000,
     //  fade: true,
     cssEase: 'cubic-bezier(.31,.16,.21,1.04)',
     // responsive: [
