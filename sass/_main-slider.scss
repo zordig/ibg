@@ -45,7 +45,7 @@
 
 
 .item-main-slider {
-  height: 100vh;
+  min-height: 100vh;
   padding: 80px 0 100px 0;
   text-align: center;
   position: relative;
@@ -59,11 +59,14 @@
 
   // .item-main-slider__cotainer
   &__cotainer {
-    min-height: 100%;
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
 
   // .item-main-slider__bg
