@@ -1,10 +1,4 @@
 @font-face {
   font-family: 'Ceremonious';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Ceremonious'),
-    url('../fonts/ceremonious_one.woff2') format('woff2'),
-    url('../fonts/ceremonious_one.woff') format('woff'),
-    url('../fonts/ceremonious_one.ttf') format('ttf'),
-    url('../fonts/ceremonious_one.eot') format('eot');
+  src: url('../fonts/ceremonious_one.ttf') format('ttf');
 }
